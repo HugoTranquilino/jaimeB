@@ -1,0 +1,244 @@
+:root{
+    --color--negro: #282525;;
+    --color--naranja:#fc5e29;
+    --color--gris:#83838399;
+    --color--blanco:#ffff;
+}
+/* about me */
+.nick {
+    float: right;
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.inf {
+    font-size: 19px;
+    font-weight: 501;
+}
+
+#bloque_inf{
+    margin-top: 3%;
+}
+
+/* end about me */
+
+.description {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.contexto {
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 363;
+}
+
+#semblanza {
+    font-weight: 501;
+}
+
+.img-encabezado {
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.img-me{
+    margin-top: 10%;
+}
+
+.docencia {
+    width: 100%;
+    height: auto;
+}
+
+/* cards */
+.card-investigacion {
+    background-color: var(--color--naranja) !important;
+    color: var(--color--blanco);
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 1rem !important;
+    margin-top: 3%;
+    margin-bottom: 9%;
+    margin-left: 43px;
+    width: 300px;
+    height: 291px;
+}
+
+.cards_img1{
+    width: 78px;
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+
+.cards_img2{
+    width: 124px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.cards_img3{
+    width: 100px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.proyects{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+/* end cards */
+
+#distinciones {
+    background-color: var(--color--negro);
+}
+
+.publicaciones {
+    background-color: var(--color--gris);
+}
+
+.head_title{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.lis-left {
+    margin-left: 110px;
+    margin-right: 102px;
+    margin-bottom: 6%;
+}
+
+.lis-right {
+    margin-left: 110px;
+    margin-right: 102px;
+    margin-bottom: 6%;
+}
+
+.list{
+    text-align: justify;
+    font-size: 16px;
+    color: var(--color--blanco);
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.librito{
+    width: 29px;
+}
+
+ul.ok { 
+    /* list-style-image: url("../imagenes/publicaciones.png");  */
+}
+
+/* investigacion */
+#contenedor{
+    background-color: var(--color--negro);
+}
+
+.contenedor_img{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.img_contenida{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#img-libro {
+    width: 5%;
+    margin-top: -5px;
+    margin-right: 3px;
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+    #img-libro {
+        width: 9%;
+    }
+
+    #bloque_inf {
+        margin-top: 3%;
+        margin-left: 28px;
+        margin-right: 0px;
+    }
+
+    .nick {
+        float: none; 
+    }
+
+    .inf {
+        font-weight: 600;
+    }
+
+    .myH2 {
+        font-size: 2rem; 
+    } 
+
+    .head_title {
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+
+    .card-investigacion {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 768px){
+    /* #bloque_inf {
+        margin-top: 3%;
+        margin-left: 28px;
+        margin-right: 0px;
+    } */
+}
+
+@media (max-width: 576px){
+    .nav div.logo {
+        margin-left: -35px;
+        margin-top: -20px;
+    }
+
+    .nav{
+        padding-top: 5%;
+    } 
+
+    #bloque_inf {
+        margin-top: 3%;
+        margin-left: -14px;
+        margin-right: 0px;
+    }
+
+    #img-libro {
+        width: 12%; 
+    }
+
+    .nick {
+        float: none; 
+    }
+
+    .lis-left {
+        margin-left: 27px;
+        margin-right: 19px;
+        margin-bottom: 6%;
+    }
+
+    .lis-right {
+        margin-left: 27px;
+        margin-right: 19px;
+        margin-bottom: 6%;
+    }
+
+    .card-investigacion {
+        margin-left: 6px;
+    }
+
+}
